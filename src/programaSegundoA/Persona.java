@@ -47,4 +47,11 @@ public class Persona {
 	public void setEstatura(float estatura) {
 		this.estatura = estatura;
 	}
+
+
+
+	public void setAl(float al) {
+		// TODO Auto-generated method stub
+		
+	}
 }

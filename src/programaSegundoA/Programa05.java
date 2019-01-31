@@ -1,26 +1,21 @@
 package programaSegundoA;
-
 import java.util.Scanner;
 
 public class Programa05 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		byte calificacion;
-		
-		Scanner leer = new Scanner(System.in);
-		
-		System.out.println("Calificacion:");
-		calificacion = leer.nextByte();
-		if(calificacion>=80){
-			System.out.print("Aprobado.");
-			
-		}
-		else
-		{
-			System.out.print("Reprobado.");
-		}
-
+       float c;
+       	Scanner l=new Scanner(System.in);
+       	
+       System.out.println("¿Qué calificación obtuviste... compa?");
+       	c=l.nextFloat();
+       	
+       if (c>=80){
+    	   System.out.println("Aprobado");
+       }
+       else{
+    	   System.out.println("Reprobado");
+       }
 	}
 
 }
